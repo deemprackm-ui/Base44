@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrimeNest Realty Group</title>
+  <meta name="description" content="A premium demo website for showcasing real estate marketing services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-mark">PN</span>
+        <span>
+          <strong>PRIMENEST</strong>
+          <small>Realty Group</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-gold" href="#contact">Book a Call</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Premium real estate services</p>
+          <h1>Where luxury meets your <span>next move</span>.</h1>
+          <p class="hero-text">
+            I help real estate agents present listings like a premium brand — with modern design,
+            polished positioning, and demo-ready websites that win trust fast.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#portfolio">View Demo Listings</a>
+            <a class="btn btn-dark" href="#services">See What I Do</a>
+          </div>
+
+          <div class="stats-grid">
+            <article>
+              <strong data-count="500">500+</strong>
+              <span>Properties Sold</span>
+            </article>
+            <article>
+              <strong data-count="12">12+</strong>
+              <span>Years Experience</span>
+            </article>
+            <article>
+              <strong data-count="98">98%</strong>
+              <span>Client Satisfaction</span>
+            </article>
+            <article>
+              <strong data-count="3">3</strong>
+              <span>Areas Covered</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="hero-card main-card">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80" alt="Luxury Villa Estate" />
+            <div class="hero-card-content">
+              <span class="pill">Featured Listing</span>
+              <h3>Luxury Villa Estate</h3>
+              <p>Mississauga, ON</p>
+              <strong>$1,200,000</strong>
+            </div>
+          </div>
+
+          <div class="floating-card glass">
+            <span>High-converting listing pages</span>
+            <strong>Premium presentation for serious buyers</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-strip reveal">
+        <p>Built to impress clients across Toronto, Mississauga, Brampton, and beyond</p>
+      </section>
+
+      <section class="section section-dark" id="portfolio">
+        <div class="section-head reveal">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Featured properties</h2>
+          <p>Styled to feel more editorial, upscale, and polished than a basic template site.</p>
+        </div>
+
+        <div class="property-grid">
+          <article class="property-card reveal">
+            <div class="image-wrap">
+              <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=900&q=80" alt="Modern Family Home" />
+              <span class="tag">For Sale</span>
+            </div>
+            <div class="property-content">
+              <p class="location">North York, Toronto</p>
+              <h3>Modern Family Home</h3>
+              <strong>$485,000</strong>
+              <div class="features"><span>4 Beds</span><span>3 Baths</span><span>2,200 sqft</span></div>
+            </div>
+          </article>
+
+          <article class="property-card reveal delay-1">
+            <div class="image-wrap">
+              <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80" alt="Downtown Luxury Condo" />
+              <span class="tag tag-soft">For Rent</span>
+            </div>
+            <div class="property-content">
+              <p class="location">Downtown, Toronto</p>
+              <h3>Downtown Luxury Condo</h3>
+              <strong>$2,800/mo</strong>
+              <div class="features"><span>2 Beds</span><span>2 Baths</span><span>1,050 sqft</span></div>
+            </div>
+          </article>
+
+          <article class="property-card reveal delay-2">
+            <div class="image-wrap">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Penthouse Suite" />
+              <span class="tag tag-soft">For Rent</span>
+            </div>
+            <div class="property-content">
+              <p class="location">Yorkville, Toronto</p>
+              <h3>Penthouse Suite</h3>
+              <strong>$5,400/mo</strong>
+              <div class="features"><span>3 Beds</span><span>3 Baths</span><span>2,100 sqft</span></div>
+            </div>
+          </article>
+
+          <article class="property-card reveal">
+            <div class="image-wrap">
+              <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=900&q=80" alt="Cozy Suburban Bungalow" />
+              <span class="tag">For Sale</span>
+            </div>
+            <div class="property-content">
+              <p class="location">Brampton, ON</p>
+              <h3>Cozy Suburban Bungalow</h3>
+              <strong>$320,000</strong>
+              <div class="features"><span>3 Beds</span><span>2 Baths</span><span>1,600 sqft</span></div>
+            </div>
+          </article>
+
+          <article class="property-card reveal delay-1">
+            <div class="image-wrap">
+              <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=900&q=80" alt="Waterfront Townhouse" />
+              <span class="tag">For Sale</span>
+            </div>
+            <div class="property-content">
+              <p class="location">Etobicoke, Toronto</p>
+              <h3>Waterfront Townhouse</h3>
+              <strong>$890,000</strong>
+              <div class="features"><span>4 Beds</span><span>3 Baths</span><span>3,000 sqft</span></div>
+            </div>
+          </article>
+
+          <article class="property-card agent-card reveal delay-2">
+            <div class="image-wrap agent-shot">
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=80" alt="Real estate agent portrait" />
+            </div>
+            <div class="property-content">
+              <p class="location">Brand Positioning</p>
+              <h3>More than listings</h3>
+              <strong>Make your agency look premium</strong>
+              <div class="features"><span>Modern UI</span><span>Smooth UX</span><span>Easy GitHub hosting</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="about">
+        <div class="about-visual reveal">
+          <div class="portrait-card">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=80" alt="Agent" />
+          </div>
+          <div class="badge-card glass">
+            <span>12+ years</span>
+            <strong>Trusted local market experience</strong>
+          </div>
+        </div>
+
+        <div class="about-copy reveal delay-1">
+          <p class="eyebrow">About us</p>
+          <h2>We put your home goals first</h2>
+          <p>
+            At PrimeNest Realty, the experience should feel clear, premium, and calm from the first click.
+            This demo site is designed to show real estate agents how I can elevate their online presence
+            without giving them a bloated or hard-to-manage codebase.
+          </p>
+          <div class="mini-stats">
+            <article><strong>500+</strong><span>Homes Sold</span></article>
+            <article><strong>$2B+</strong><span>In Transactions</span></article>
+            <article><strong>24h</strong><span>Fast Lead Response</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="services">
+        <div class="section-head reveal">
+          <p class="eyebrow">What I do for agents</p>
+          <h2>Simple demo website, premium feel</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <h3>Premium redesign</h3>
+            <p>Cleaner layouts, stronger typography, and richer sections that feel high-end.</p>
+          </article>
+          <article class="service-card reveal delay-1">
+            <h3>Smooth interactions</h3>
+            <p>Subtle animations, hover effects, and scroll reveals to make the site feel more alive.</p>
+          </article>
+          <article class="service-card reveal delay-2">
+            <h3>Easy to host</h3>
+            <p>Only 3 simple files: HTML, CSS, and JS. Perfect for GitHub Pages from your phone.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something your clients remember</h2>
+          <p>Tell me what kind of listings or local area you want to showcase, and I’ll shape the demo around your brand.</p>
+        </div>
+
+        <form class="contact-card reveal delay-1">
+          <div class="field-row">
+            <input type="text" placeholder="Your name" />
+            <input type="email" placeholder="Email address" />
+          </div>
+          <input type="text" placeholder="Agency / Brand name" />
+          <textarea rows="5" placeholder="Tell me what you want the demo site to do"></textarea>
+          <button class="btn btn-gold" type="button">Send Inquiry</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
